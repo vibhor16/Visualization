@@ -1,0 +1,197 @@
+#main_bar_svg{
+	margin-left: 30%
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 11%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.feature > div:first-child:hover {
+  background-color: : red;
+  cursor: pointer;  
+}
+
+.highlight-selected{
+  background-color: white !important;
+  color: black !important;
+}
+
+thead{
+  display: block;
+  overflow: scroll;
+  width: 75em !important;
+  height: 50em;
+  font-size: 12px;
+}
+
+#dataset_table > thead > tr:first-child {
+      background: #1f1d1df0;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      display:;
+      
+}
+
+#dataset_table {
+  width: 60em;
+}
+
+.svg_text{
+  font-family: 'Times New Roman';
+}
+
+#vibrating-title{
+  width: fit-content;
+  position: relative;
+  animation: myfirst 0.7s infinite;
+  /*animation-direction: normal;*/
+  cursor: pointer;
+}
+
+@keyframes myfirst {
+  0%   { left: 0px; top: 0px;}
+  50%  { left: 15px; top: 0px;}
+  100% { left: 0px; top: 0px;}
+}
+
+#home_text{
+  margin:5% 33%;
+  width: 54%;
+  font-size: 25px;
+  animation: mysecond 0.7s 1;
+  animation-direction: normal;
+}
+
+@keyframes mysecond {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+
+.overlay {  
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
+  }
+
+.overlay-desc{
+    color: white;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    margin-top: 16%;
+    text-align: center;
+}
+
+#overlay-dismiss{
+    cursor: pointer;
+    margin-top: 2% !important;
+    width: 12em !important;
+    height: 3em !important;
+    font-size: 20px;
+    border: 1px solid #616161;
+    border-radius: 2px;
+    color: white;
+    background: #616161;
+}
+
+#overlay-dismiss:hover{
+  opacity: 0.8
+}
+
+#close-vis{
+  display: inline;
+    margin-left: 30%;
+    align-items: ;
+    margin-top: 12%;
+    padding: 3%;
+    width: 6em;
+    font-size: 18px;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    background: black;
+    margin-top: 24em !important;
+}
+
+#close-vis:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+text{
+  user-select: none;
+}
+
+.feature-cell{
+  background: black;
+}
+
+.feature-cell:hover{
+  background: white;
+  color: black;
+}
