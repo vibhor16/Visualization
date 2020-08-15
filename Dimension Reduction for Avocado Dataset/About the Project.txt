@@ -1,0 +1,27 @@
+YouTube Link - https://youtu.be/B-sqh1hRHYA
+
+#About the Dataset
+
+Name - Avocado Dataset
+Features 10 numerical features which are -
+
+1) Population
+2) Price
+3) Total Volume
+4) Total Bags
+5) PLU4046
+6) PLU4225
+7) PLU4770
+8) Small Bags
+9) Large Bags
+10) XLarge Bags
+
+Rows: There are 1000 rows in the dataset
+
+Following operations are performed - 
+
+1. Data clustering and decimation
+
+2. Dimension reduction on both org and 2 types of reduced data
+
+3. Visualization of both original and 2 types of reduced data
