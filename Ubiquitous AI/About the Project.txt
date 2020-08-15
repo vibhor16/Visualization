@@ -1,0 +1,28 @@
+YouTube Link - https://youtu.be/Ay-NBSdqbG4
+
+Ubiquitous AI
+
+Artificial Intelligence or AI is a branch of Computer Science which deals with machines performing
+operations which otherwise require ‘human intelligence’. The domains which AI encompasses are
+tremendous in number. It becomes a topic of utmost interest to us to analyze the ubiquity of AI in the
+modern world. In this poster, we provide a visual analysis to understand the growth and prevalence of
+AI right from its infancy to the mammoth. Based on the Countries Investment, Stackoverflow posts,
+Quora posts and Revenue the country is making, we unveil the prevalence of AI in today’s world.
+
+
+In this project, the presence of AI is depicted through various types of graphs using D3.js and Python Flask framework.
+Graphs used are -
+
+1. World Map Graph enabled with dynamic colouring and a slider to get top countries with maximum AI presence 
+
+2. Chord Diagram - Based on the top countries, it tells about the capital invested in various technologies in the top AI nations.
+
+3. Zoom Circle - Tells the leading states in the top nations with maximum AI presence and investments.
+
+4. Live Line Chart - A live chart which gets the Live Google Trends for the top 3 fields using the AI technology.
+
+
+Changes made to the slider in the world map updates the other graphs which helps to provide context to the users using this dashboard.
+
+
+
